@@ -1,5 +1,5 @@
-import odaLogo from "./assets/Oda-logo.svg";
-import odaIcon from "./assets/Oda-whatsapp-icon.png";
+import odaLogo from "./assets/oda-logo.svg";
+import odaIcon from "./assets/oda-whatsapp-icon.png";
 
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 
