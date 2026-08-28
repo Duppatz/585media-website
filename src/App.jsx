@@ -30,6 +30,7 @@ function App() {
         </a>
       </header>
 
+
       {/* HERO */}
       <section className="hero">
 
@@ -40,7 +41,8 @@ function App() {
             COMMERCE ON WHATSAPP
           </div>
 
-          <h1>Your Business,
+          <h1>
+            Your Business,
             <br />
             <span>in conversation.</span>
           </h1>
@@ -64,6 +66,7 @@ function App() {
           </div>
 
         </div>
+
 
         {/* WHATSAPP PHONE */}
         <div className="phone-area">
@@ -98,6 +101,7 @@ function App() {
                 </div>
 
               </div>
+
 
               {/* CHAT */}
               <div className="wa-chat">
@@ -171,6 +175,7 @@ function App() {
 
               </div>
 
+
               {/* INPUT */}
               <div className="wa-input-area">
 
@@ -203,87 +208,91 @@ function App() {
         </div>
 
       </section>
-{/* FEATURES */}
-<section className="features">
-
-  <div className="features-header">
-
-    <div className="features-label">
-      WHAT ODA DOES
-    </div>
-
-    <h2>
-      Everything happens
-      <span>in conversation.</span>
-    </h2>
-
-    <p>
-      ODA brings business, orders and payments together
-      inside WhatsApp, making everyday transactions simpler.
-    </p>
-
-  </div>
 
 
-  <div className="features-grid">
+      {/* FEATURES INTRO */}
+      <section className="features">
 
-    <article className="feature-card">
+        <div className="features-header">
 
-      <div className="feature-icon">
-        ◉
-      </div>
+          <div className="features-label">
+            WHAT ODA DOES
+          </div>
 
-      <h3>
-        Sell on WhatsApp
-      </h3>
+          <h2>
+            Everything happens
+            <span>in conversation.</span>
+          </h2>
 
-      <p>
-        Businesses can present products and receive
-        customer requests directly through WhatsApp.
-      </p>
+          <p>
+            ODA brings business, orders and payments together
+            inside WhatsApp, making everyday transactions simpler.
+          </p>
 
-    </article>
-
-
-    <article className="feature-card">
-
-      <div className="feature-icon">
-        →
-      </div>
-
-      <h3>
-        Orders in conversation
-      </h3>
-
-      <p>
-        Customers can request products, confirm orders
-        and continue the entire process without leaving
-        the conversation.
-      </p>
-
-    </article>
+        </div>
 
 
-    <article className="feature-card">
+        <div className="features-grid">
 
-      <div className="feature-icon">
-        ₵
-      </div>
+          <article className="feature-card">
 
-      <h3>
-        Payments made simple
-      </h3>
+            <div className="feature-icon">
+              ◉
+            </div>
 
-      <p>
-        ODA connects the customer conversation with
-        payment instructions and confirmation.
-      </p>
+            <h3>
+              Sell on WhatsApp
+            </h3>
 
-    </article>
+            <p>
+              Businesses can present products and receive
+              customer requests directly through WhatsApp.
+            </p>
 
-  </div>
+          </article>
 
-</section>
+
+          <article className="feature-card">
+
+            <div className="feature-icon">
+              →
+            </div>
+
+            <h3>
+              Orders in conversation
+            </h3>
+
+            <p>
+              Customers can request products, confirm orders
+              and continue the entire process without leaving
+              the conversation.
+            </p>
+
+          </article>
+
+
+          <article className="feature-card">
+
+            <div className="feature-icon">
+              ₵
+            </div>
+
+            <h3>
+              Payments made simple
+            </h3>
+
+            <p>
+              ODA connects the customer conversation with
+              payment instructions and confirmation.
+            </p>
+
+          </article>
+
+        </div>
+
+      </section>
+
+
       {/* ABOUT */}
       <section className="about" id="about">
 
@@ -304,9 +313,16 @@ function App() {
             customers out of the conversation.
           </p>
 
+          {/* LEGAL BUSINESS IDENTITY */}
+          <p>
+            ODA is a product of <strong>585 Media Group Limited</strong>,
+            a company registered in Tanzania.
+          </p>
+
         </div>
 
       </section>
+
 
       {/* FEATURES */}
       <section className="features" id="features">
@@ -318,11 +334,12 @@ function App() {
           </div>
 
           <h2>
-            Everything happens 
+            Everything happens
             <span> inside the conversation.</span>
           </h2>
 
         </div>
+
 
         <div className="features-grid">
 
@@ -333,7 +350,7 @@ function App() {
             </div>
 
             <div className="feature-icon">
-              ↗
+              ←
             </div>
 
             <h3>
@@ -347,6 +364,7 @@ function App() {
             </p>
 
           </article>
+
 
           <article className="feature-card">
 
@@ -369,6 +387,7 @@ function App() {
             </p>
 
           </article>
+
 
           <article className="feature-card">
 
@@ -396,6 +415,7 @@ function App() {
 
       </section>
 
+
       {/* CTA */}
       <section className="oda-cta">
 
@@ -411,8 +431,10 @@ function App() {
           </h2>
 
           <p>
-                         Start building a simpler customer experience
-                     with ODA. Easy to set up, easy to use.You just need your TIN number and a WhatsApp registered number
+            Start building a simpler customer experience
+            with ODA. Easy to set up, easy to use.
+            You just need your TIN number and a WhatsApp
+            registered number.
           </p>
 
           <a href="#contact" className="primary-btn">
@@ -423,22 +445,21 @@ function App() {
 
       </section>
 
+
       {/* FOOTER */}
       <footer className="footer" id="contact">
 
-        <div className="footer-brand">
-
-          <img src={odaLogo} alt="ODA" />
-
-          <span>
-            Oda by 585 Media
-          </span>
-
-        </div>
-
         <div className="footer-right">
 
-  <span>
+  <span className="company-name">
+    585 Media Group Limited
+  </span>
+
+  <span className="company-address">
+    
+PSSSF Tower Building 12th Floor, Plot. 20/21,<br />
+    Garden Avenue/Ohio Street,<br />
+    P.O. Box 96111,<br />
     Dar es Salaam, Tanzania
   </span>
 
